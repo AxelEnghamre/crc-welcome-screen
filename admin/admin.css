@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    place-content: center;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+video {
+    width: 100vw;
+    height: auto;
+}
+
+.clock {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: white;
+    display: grid;
+    place-content: center;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+}
+
+.welcome {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    width: fit-content;
+    min-height: 4rem;
+    /* padding: 1rem; */
+    background-color: white;
+    display: grid;
+    place-content: center;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 1.3rem;
+}
