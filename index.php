@@ -14,7 +14,7 @@
     <title>welcome</title>
 </head>
 <body>
-    <video src="video.mp4" autoplay muted></video>
+    <video src="video.mp4" autoplay muted loop></video>
     <section class="clock"></section>
     <section class="welcome"></section>
 </body>
